@@ -1,0 +1,86 @@
+{
+  "cursos": [
+    {
+      "id": "1",
+      "nombre": "Seminario I"
+    },
+    {
+      "id": "fbd3",
+      "nombre": "Seminario II"
+    },
+    {
+      "id": "118c",
+      "nombre": "Matematicas"
+    },
+    {
+      "id": "1874",
+      "nombre": "Analisis"
+    },
+    {
+      "id": "92fc",
+      "nombre": "mate"
+    },
+    {
+      "id": "e72f",
+      "nombre": "espanol"
+    },
+    {
+      "id": "5a7e",
+      "nombre": "otra "
+    },
+    {
+      "id": "408b",
+      "nombre": "s"
+    },
+    {
+      "id": "c808",
+      "nombre": "pollo"
+    }
+  ],
+  "alumnos": [
+    {
+      "id": "1",
+      "codigo": "123456",
+      "nombre": "Pedro Perez"
+    },
+    {
+      "id": "6157",
+      "codigo": "123456",
+      "nombre": "Luis Diaz"
+    },
+    {
+      "id": "a216",
+      "codigo": "4567",
+      "nombre": "Paola Perez"
+    },
+    {
+      "id": "f30a",
+      "codigo": "6666",
+      "nombre": "Primo rojas"
+    },
+    {
+      "id": "fedf",
+      "codigo": "21323",
+      "nombre": "anaq"
+    },
+    {
+      "id": "97ed",
+      "codigo": "12312",
+      "nombre": "Pollo"
+    },
+    {
+      "id": "45aa",
+      "codigo": "12312",
+      "nombre": "Pollo"
+    },
+    {
+      "id": "4012",
+      "codigo": "12312",
+      "nombre": "Pollo"
+    }
+  ],
+  "matriculas": {
+    "curso_id": "1",
+    "alumno_id": "1"
+  }
+}

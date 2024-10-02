@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col pe-5">
+    <h1>Cursos</h1>
+    <ul class="list-group">
+      @for(curso of cursos; track curso.id ){
+        <li
+            class="list-group-item item"
+            [class.active]="curso.id === cursoSelected?.id"
+            (click)="onSelectCurso(curso)">{{curso.nombre}}</li>
+      }
+
+    </ul>
+    <app-form-curso (evento)="onSaveCurso($event)"></app-form-curso>
+  </div>
+  <div class="col pe-5">
+    <h1>Matricular</h1>
+    @if(cursoSelected?.id){
+      <app-form-matricula [curso]="cursoSelected" (evento)="onSaveAlumno($event)"></app-form-matricula>
+    }
+
+  </div>
+  <div class="col pe-5">
+    <h1>Estudiantes</h1>
+    <ul class="list-group">
+      <li class="list-group-item">An item</li>
+      <li class="list-group-item">A second item</li>
+      <li class="list-group-item">A third item</li>
+      <li class="list-group-item">A fourth item</li>
+      <li class="list-group-item">And a fifth one</li>
+    </ul>
+  </div>
+</div>
